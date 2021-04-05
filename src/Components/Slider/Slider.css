@@ -1,0 +1,19 @@
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.slide img {
+    border-radius: 10px;
+}
+
+.slide .index {
+    display: flex;
+    flex-direction: row;
+    height: 15px;
+    justify-content: center;
+    gap: 10px;
+}

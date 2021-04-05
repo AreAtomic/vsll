@@ -1,0 +1,16 @@
+.navbar-burger{
+    width: 5.25rem;
+    margin-right: 30px;
+}
+
+.navbar-item{
+    text-transform: uppercase;
+}
+.navbar-start{
+    margin-right: auto;
+    margin-left: 25vw;
+}
+
+.navbar-item img{
+    max-height: 2.75rem;
+}

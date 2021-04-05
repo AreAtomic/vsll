@@ -1,0 +1,10 @@
+.card {
+    background: #FFCB00;
+    box-shadow: inset -10px -10px 15px rgba(79, 18, 0, 0.25), inset 10px 10px 15px #FFEEC5;
+    border-radius: 20px;
+    max-width: 275px;
+    height: 300px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+}

@@ -1,0 +1,64 @@
+@charset "utf-8"
+
+// Set your brand colors
+$yellow: #FFCB00
+$white: #FFF2CD
+$red: #6E1731
+$orange: #FE6537
+$green: #14F5AA
+
+// Update Bulma's global variables
+$primary: $orange
+$text: $red
+$link: $yellow
+$input-color: $red
+$input-disabled-color: $red
+$input-radius: 10px
+$link-hover: $white
+$input-hover-border-color: $white
+$input-hover-color: $white
+$input-focus-border-color: $white
+$link-visited: $orange
+$info: $yellow
+$warning: $orange
+$light: $white
+$widescreen-enabled: true
+$tablet: 900px 
+$fullhd-enabled: true
+
+// Update some of Bulma's component variables
+$body-background-color: $orange
+$control-border-width: 2px
+$input-border-color: transparent
+$input-shadow: none
+
+//Navbar
+$navbar-background-color: $orange
+$navbar-item-color: $white
+$navbar-item-hover-background-color: $yellow
+$navbar-item-hover-color: #000046
+$navbar-dropdown-arrow: $white
+$navbar-dropdown-background-color : $yellow
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/bulma.sass";
+
+html,
+body
+    padding: 0
+    margin: 0
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif
+
+a
+    color: inherit
+    text-decoration: none
+
+*
+    box-sizing: border-box
+
+h1
+    font-size: 48px
+    font-weight: bold
+    color: $red
+    width: 100vw

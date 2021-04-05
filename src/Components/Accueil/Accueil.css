@@ -1,0 +1,40 @@
+.fond{
+    width: 103vw;
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+}
+
+.fond img{
+    width: 100%;
+}
+
+.grid{
+    display: grid;
+}
+
+.auto{
+    margin: auto;
+}
+.mt-4{
+    margin-top: 4rem !important;
+}
+
+.velo{
+    position: absolute;
+    left: 4vw;
+    top: 67vh;
+    width: 10vw;
+}
+
+@media screen and (max-width: 1300px){
+    .velo{
+        top: 59vh;
+    }
+}
+
+@media screen and (max-width: 1235px){
+    .velo{
+        top: 59vh;
+    }
+}
